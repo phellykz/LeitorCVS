@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class LeitorCSV {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		String pathCSV = "/home/felix/Área de Trabalho/csv/estoque.csv";
+		String pathCSV = "/home/felix/Desktop/csv/estoque.csv";
 		BufferedReader bodyCSV = null;
 		String row = "";
 		String csvSplit = ";";
@@ -40,7 +40,7 @@ public class LeitorCSV {
 				jump =false;
 			}
 			
-			FileWriter arq = new FileWriter("/home/felix/Área de Trabalho/csv/estoque.html");
+			FileWriter arq = new FileWriter("/home/felix/Desktop/csv/estoque.html");
 			
 			PrintWriter gravarArq = new PrintWriter(arq);
 			 
